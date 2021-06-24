@@ -1,11 +1,13 @@
 # pix-react
+
 QRCode para pagamento PIX / QRCode for Brazilian PIX payment
 
 ![CI](https://github.com/teintinu/pix-react/actions/workflows/node.js.yml/badge.svg)
 
 [![codecov](https://codecov.io/gh/teintinu/pix-react/branch/main/graph/badge.svg?token=5UB7FBgIdA)](https://codecov.io/gh/teintinu/pix-react)
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fteintinu%2Fpix-react.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fteintinu%2Fpix-react?ref=badge_shield)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fteintinu%2Fpix-react.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fteintinu%2Fpix-react?ref=badge_large)
+
 ## Instalação
 
 ```sh
@@ -76,3 +78,8 @@ field      | type                 | default value
 `excavate` | `boolean`            | `false`
 
 Mais informações sobre [qrcode.react](https://github.com/zpao/qrcode.react)
+
+# Referência
+
+Este projeto foi escrito tendo como base o projeto: https://github.com/joseviniciusnunes/qrcode-pix/
+
