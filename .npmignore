@@ -2,3 +2,10 @@ src
 .gitignore
 tsconfig.json
 dist/__tests__
+coverage
+.nyc_output
+.github
+.vscode
+jest.config.js
+.eslintrc.js
+.eslintignore

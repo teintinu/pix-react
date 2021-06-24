@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "QRCode para pagamento PIX / QRCode for Brazilian PIX payment",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc -p .",
     "lint": "npx eslint  --ext ts,tsx .",
     "lint-fix": "npx eslint  --ext ts,tsx . --fix",
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "npm test ; npm run build"
   },
   "repository": {
     "type": "git",

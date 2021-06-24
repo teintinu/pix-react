@@ -7,5 +7,5 @@ module.exports = {
     global: {
       lines: 100
     }
-  }
+  }  
 }
