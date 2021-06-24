@@ -1,4 +1,6 @@
 # pix-react
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fteintinu%2Fpix-react.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fteintinu%2Fpix-react?ref=badge_shield)
+
 QRCode para pagamento PIX / QRCode for Brazilian PIX payment
 
 ## Instalação
@@ -67,3 +69,6 @@ field      | type                 | default value
 `excavate` | `boolean`            | `false`
 
 Mais informações sobre [qrcode.react](https://github.com/zpao/qrcode.react)
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fteintinu%2Fpix-react.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fteintinu%2Fpix-react?ref=badge_large)
