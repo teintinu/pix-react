@@ -36,6 +36,10 @@ React.render(
 );
 ```
 
+# demonstração
+
+[Clique aqui para ver uma demonstração online](https://codesandbox.io/embed/kind-dubinsky-mxc81?fontsize=14&hidenavigation=1&theme=dark&view=preview)
+
 ## Parâmetros PIX
 A propriedade pixParams concentra os parâmetros necessários para gerar o PIX
 
