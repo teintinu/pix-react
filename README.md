@@ -3,7 +3,7 @@ QRCode para pagamento PIX / QRCode for Brazilian PIX payment
 
 ![CI](https://github.com/teintinu/pix-react/actions/workflows/node.js.yml/badge.svg)
 
-[![codecov](https://codecov.io/gh/teintinu/pix-react/branch/master/graph/badge.svg)](https://codecov.io/gh/teintinu/pix-react)
+[![codecov](https://codecov.io/gh/teintinu/pix-react/branch/main/graph/badge.svg?token=5UB7FBgIdA)](https://codecov.io/gh/teintinu/pix-react)
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fteintinu%2Fpix-react.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fteintinu%2Fpix-react?ref=badge_shield)
 ## Instalação
