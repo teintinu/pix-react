@@ -9,3 +9,4 @@ coverage
 jest.config.js
 .eslintrc.js
 .eslintignore
+*.map

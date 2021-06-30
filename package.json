@@ -1,6 +1,6 @@
 {
   "name": "pix-react",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "QRCode para pagamento PIX / QRCode for Brazilian PIX payment",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
