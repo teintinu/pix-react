@@ -11,7 +11,7 @@ QRCode para pagamento PIX / QRCode for Brazilian PIX payment
 ## Instalação
 
 ```sh
-npm install qrcode-pix
+npm install pix-react
 ```
 
 ## Uso
