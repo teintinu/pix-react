@@ -18,7 +18,7 @@ npm install qrcode-pix
 
 ```js
 var React = require('react');
-var { PixQRCode } = require('qrcode-pix');
+var { PixQRCode } = require('pix-react');
 
 React.render(
   <PixQRCode
