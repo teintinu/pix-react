@@ -8,7 +8,7 @@ export function usePixPayload(params: PixParams): PixPayloadResult {
   useEffect(() => {
     try {
       setResult([pixPayload(params), null])
-    } catch (e) {
+    } catch (e: any) {
       setResult(['', e])
     }
   }, [params])
