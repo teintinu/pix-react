@@ -14,7 +14,6 @@ describe('Pix QRCode', () => {
           valor: 123.45,
           mensagem: 'minha mensagem'
         }}
-        renderAs="svg"
         includeMargin={true}
         size={256}
       />
@@ -36,7 +35,6 @@ describe('Pix QRCode', () => {
           valor: 123.45,
           mensagem: 'minha mensagem'
         }}
-        renderAs="svg"
         includeMargin={true}
         size={256}
       />

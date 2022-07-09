@@ -1,6 +1,6 @@
 {
   "name": "pix-react",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "QRCode para pagamento PIX / QRCode for Brazilian PIX payment",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -25,23 +25,23 @@
   },
   "homepage": "https://github.com/teintinu/pix-react#readme",
   "devDependencies": {
-    "@types/jest": "^26.0.24",
-    "@types/node": "^15.14.9",
+    "@types/jest": "^28.1.4",
+    "@types/node": "^18.0.3",
     "@types/polycrc": "^0.1.0",
     "@types/qrcode.react": "^1.0.2",
-    "@types/react": "^17.0.20",
-    "@types/react-test-renderer": "^17.0.1",
-    "@typescript-eslint/eslint-plugin": "^4.31.0",
-    "@typescript-eslint/parser": "^4.31.0",
-    "eslint": "^7.32.0",
-    "jest": "^27.1.1",
-    "react-test-renderer": "^17.0.2",
-    "ts-jest": "^27.0.5",
-    "typescript": "^4.4.2"
+    "@types/react": "^18.0.15",
+    "@types/react-test-renderer": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "eslint": "^8.19.0",
+    "jest": "^28.1.2",
+    "react-test-renderer": "^18.2.0",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4"
   },
   "dependencies": {
-    "polycrc": "^1.1.0",
-    "qrcode.react": "^1.0.1",
-    "react": ">=16.8"
+    "polycrc": "^1.1.1",
+    "qrcode.react": "^3.1.0",
+    "react": ">=18.2"
   }
 }

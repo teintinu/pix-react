@@ -1,16 +1,14 @@
-import React, { createElement, ReactElement } from 'react'
+import React, { createElement, CSSProperties, ReactElement } from 'react'
 import { usePixPayload } from './pixPayloadHook'
 import { PixParams } from './pixPayload'
-import QRCode, { CanvasQRCodeProps, SvgQRCodeProps } from 'qrcode.react'
+import { QRCodeSVG } from 'qrcode.react'
 
-export type PixQRCodeProps = (
-  | Omit<CanvasQRCodeProps, 'value'>
-  | Omit<SvgQRCodeProps, 'value'>
-) & {
-  pixParams: PixParams
-}
+export type PixQRCodeProps = Omit<React.ComponentProps<typeof QRCodeSVG>, 'value'>
+  & {
+    pixParams: PixParams
+  }
 
-export function PixQRCode ({
+export function PixQRCode({
   pixParams,
   ...props
 }: PixQRCodeProps): ReactElement {
@@ -18,6 +16,6 @@ export function PixQRCode ({
   return error ? (
     <span>{error.message}</span>
   ) : (
-    createElement(QRCode, { ...props, value })
+    createElement(QRCodeSVG, { ...props, value } as any)
   )
 }
